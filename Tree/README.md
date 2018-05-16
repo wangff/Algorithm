@@ -5,6 +5,7 @@
 
 1.  Merge two Binary Tree
 2.  Invert a binary Tree
+3.  Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. 
 
 
 ### Binary Tree Inorder Traversal
