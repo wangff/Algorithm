@@ -10,6 +10,22 @@ http://v.youku.com/v_show/id_XMzE3MTE2NDQ3Mg==.html?
 
 https://github.com/xiexiexx/DSAD/blob/master/Ch04/xLEGO.cpp
 
+## Lecture 10: Multiple Merge 
+
+Using priority queue
+
+### The address of lecture
+
+https://www.bilibili.com/video/av19239486/
+
+### The lecturer's implementation in C++
+
+https://github.com/xiexiexx/Planet/blob/master/merge/multiway_merge.cpp
+
+
+
+
+
 
  
 
