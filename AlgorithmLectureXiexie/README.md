@@ -22,7 +22,12 @@ https://www.bilibili.com/video/av19239486/
 
 https://github.com/xiexiexx/Planet/blob/master/merge/multiway_merge.cpp
 
+## Lecture 12: Maximum Subarray Problem ( Introduction to Algorithm 4.1)
 
+### Algorithm
+
+1. Divide and Conquer
+2. Kadane's liner time algorithm
 
 
 
