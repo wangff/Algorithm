@@ -13,5 +13,5 @@
 
 1. chain 56
 2. islice 56
-3. 
+3. combination 216
 
