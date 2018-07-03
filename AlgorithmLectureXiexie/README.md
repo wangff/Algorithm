@@ -29,6 +29,7 @@ https://github.com/xiexiexx/Planet/blob/master/merge/multiway_merge.cpp
 1. Divide and Conquer
 2. Kadane's liner time algorithm
 
+## Lecture 14: Huffman and Majority Number
 
 
 
