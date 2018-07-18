@@ -33,6 +33,21 @@ All the analysis above assumes n is significantly large. When n is small, it may
 
 For instance, when n = 4, we have 2*2>3*1
 
+## 357. Count Numbers with Unique Digits
+
+Let f(n) = count of number with unique digits of length n.
+$f(1) = 10$
+$f(2) = 9*9$
+$f(3) = f(2)*8$
+$f(4) = f(3)*7$
+$......$
+$f(10) = f(9)*1$
+$f(11) = 0 = f(12)=f(13)$
+
+Any number with length > 10 couldn't be unique digits number.
+The problem is asking for numbers from 0 to 10^n. 
+Hence return f(1)+f(2)..+f(n)
+
 
 
 
