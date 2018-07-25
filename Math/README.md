@@ -48,6 +48,25 @@ Any number with length > 10 couldn't be unique digits number.
 The problem is asking for numbers from 0 to 10^n. 
 Hence return f(1)+f(2)..+f(n)
 
+## 258. Add digits
+
+Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
+
+Example:
+Input: 38
+Output: 2 
+Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. 
+             Since 2 has only one digit, return it.
+
+If an integer is like 100a+10b+c, then (100a+10b+c)%9=(a+99a+b+9b+c)%9=(a+b+c)%9
+
+```
+class Solution:
+	def addDigits(self, num):
+		if num<10: return num
+		return num%9 if num%9>0 else 9
+
+```
 
 
 
