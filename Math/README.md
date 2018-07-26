@@ -68,5 +68,14 @@ class Solution:
 
 ```
 
+## 69. Sqrt(x) - Newton's method
 
+Find a solution for the equation $ x^2-n=0$, giving the iterative formula:
+
+$$x_{k+1} = \dfrac{1}{2}\left(x_{k}+\dfrac{n}{x_{k}}\right)\\
+k\geq0\\
+x_{0}\geq0
+$$
+
+The sequence $\left\{x_{k}\right\}$converges quadratically to $\sqrt{n} $ as $ k\rightarrow\infty$. It can be proven that if $ x_{0} = n $ is chosen as the initial guess, one can stop as soon as $\left| x_{k+1} - x_{k}\right| < 1$ to ensure that $\lfloor x_{k+1} \rfloor = \lfloor \sqrt{n}\rfloor$.
 
