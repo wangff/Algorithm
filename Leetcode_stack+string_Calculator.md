@@ -45,9 +45,15 @@
 
 ### Steps - Non-negative, (),
 
+\- 224 Basic Calculator : level 1 + ()
+
+\- 227 Basic Calculator II : level 1 + level 2
+
+\- 772 Basic Calculator III : level 1 + level 2 + ()
+
 Line |Two precedence | One precedence
 -----------|------------|------------
-Precendence |l1: o1 = + or -; l1 = 0 <br> l2: o2 = * or /; l2 = 1 | l1: o1 = + or -; l1 = 0
+Precendence |l1: o1 = + ; l1 = 0 or -1 (-x is valid) <br> l2: o2 = * or /; l2 = 1 | l1: o1 = + ; l1 = 0 or -1 (if -x is valid) 
 Traverse the string|Traverse the string | Traverse the string 
 ch is digit | to get num. evaluate l2 (use num) | to get num. evaluate l1 (use num)
 ch is variable| get the value, evaluate l2(use num)|get the value, evaluate l1(use num)
@@ -56,4 +62,3 @@ ch is )| evaluate l1 and store it to num <br> pop o2 l2<br>pop o1 l1<br>evaluate
 if ch is o2|update o2|
 if ch is o1|evalute l1<br>update o1<br>reset o2|update o1
 At the end | evaluate o1(use l2)|
-    
